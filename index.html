@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DecodeLabs | The Responsive Architecture</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">DecodeLabs</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">☰</button>
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#architecture">Architecture</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout-grid">
+    <section class="hero-section" id="overview">
+      <h1 class="hero-title">You Are The Architect.</h1>
+      <p>Building accessible, adaptive digital interfaces through pure HTML, CSS, and JS logic.</p>
+    </section>
+
+    <main class="main-content">
+      <article class="content-card">
+        <h2>Semantic Integrity</h2>
+        <p>Using proper structural elements ensures full WCAG accessibility compliance and robust SEO structure.</p>
+      </article>
+      <article class="content-card">
+        <h2>Mobile-First Layouts</h2>
+        <p>Designing for constraints first guarantees smooth, performant experiences across all screen viewports.</p>
+      </article>
+    </main>
+
+    <aside class="sidebar">
+      <h3>Project Specs</h3>
+      <ul>
+        <li>No Frameworks</li>
+        <li>Pure CSS Grid & Flexbox</li>
+        <li>Accessibility (WCAG Compliant)</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer class="site-footer" id="contact">
+    <p>&copy; 2026 DecodeLabs Internship Program. Designed with precision & passion.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
